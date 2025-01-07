@@ -51,7 +51,10 @@ npm run ios
 ```
 
 - For Android:
-  First, update the sdk.dir in the local.properties file within the Android folder to match your SDK directory.
+  First, create local.properties file inside the Android folder and add the SDK directory.Example;
+  ```bash
+  sdk.dir = /Users/Karabiyik/Library/Android/sdk
+  ```
   Run the following command:
 
 ```bash
